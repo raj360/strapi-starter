@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lookups",
+  "info": {
+    "name": "lookup",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "restaurant": {
+      "model": "restaurant",
+      "via": "lookups"
+    },
+    "values": {
+      "type": "string"
+    }
+  }
+}
