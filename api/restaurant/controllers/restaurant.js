@@ -5,4 +5,9 @@
  * to customize this controller
  */
 
-module.exports = {};
+module.exports = {
+  async findById(context){
+   console.log({context})
+   return "Testing if this is working just fine "
+  }
+};
