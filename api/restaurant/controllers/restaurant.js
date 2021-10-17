@@ -5,4 +5,10 @@
  * to customize this controller
  */
 
-module.exports = {};
+module.exports = {
+  async findById(ctx){
+   
+   console.log({ctx})
+   return "Testing if this is working just fine "
+  }
+};
