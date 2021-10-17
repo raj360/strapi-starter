@@ -6,8 +6,9 @@
  */
 
 module.exports = {
-  async findById(context){
-   console.log({context})
+  async findById(ctx){
+   
+   console.log({ctx})
    return "Testing if this is working just fine "
   }
 };
